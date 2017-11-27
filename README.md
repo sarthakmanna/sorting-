@@ -1,4 +1,3 @@
 # sorting
 
-
-basic sorting methods implemented in C. Feel free to contribute. 
+Basic Sorting Algorithms. Useless, I know...
