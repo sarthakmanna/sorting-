@@ -11,7 +11,7 @@ int main()
 	radixSort(ar,0,10);
 	printf("Sorted: ");
 	printAr(ar,11);
-  return 0;
+  	return 0;
 }
 
 int mat[100][10],endInd[10];
@@ -27,7 +27,7 @@ void radixSort(int ar[],int s,int e)
 			mat[endInd[d]++][d]=ar[j];
 		}
 		modV*=10;divVal*=10;
-		d=0;
+		d=s;
 		for(j=0;j<10;j++)
 		{
 			for(int k=0;k<endInd[j];k++)
