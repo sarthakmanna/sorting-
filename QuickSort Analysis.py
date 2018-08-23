@@ -10,6 +10,7 @@ def generate(size):
 
 
 def sort(ar):
+    # https://www.geeksforgeeks.org/iterative-quick-sort/
     def partition(arr, l, h):
         i = (l - 1)
         x = arr[h]
